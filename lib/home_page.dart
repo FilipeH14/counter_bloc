@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
                 'cubit',
                 style: Theme.of(context).textTheme.headlineMedium,
               ),
-              onPressed: () {},
+              onPressed: () => Navigator.of(context).pushNamed('/cubit'),
             ),
           ],
         ),
